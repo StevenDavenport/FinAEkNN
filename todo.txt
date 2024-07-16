@@ -1,0 +1,23 @@
+TODO:
+
+
+- ~~Add a KNN model to the pipeline~~
+    - How do I feed the data to KNN now? 
+		- Perhaps impliment a game loop that feeds the data to the KNN model?
+		    - Similar to NinjaTrader's OnBarUpdate() method
+				- Could put game loop in a seperate file, backtest.py for example
+		hmm 0.0
+
+- GIT
+
+- Try bigger network, train on more data
+
+- Bigger dataset?
+
+- EVENTUALLY:::
+- Maybe try 2 KNNs, one for directional bias, one for movement bias.
+- Try and train the KNN and AE at the same time, probably with RL. 
+    - With either 1 or 2 KNNs
+- Maybe feed KNN output to another model?
+		- What other model could use the KNN output?
+		    - 
